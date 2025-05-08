@@ -8,15 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BTPrint'
-  s.version          = '2.0.0'
-  s.summary          = 'Swift 打印'
+  s.version          = '2.0.1'
+  s.summary          = 'Swift 打印美化'
 
 
-  s.homepage         = 'https://github.com/intsig171/'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/iAmMccc/BTPrint'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Mccc' => 'mancong@bertadata.com' }
-  s.source           = { :git => 'https://github.com/intsig171/BTPrint.git', :tag => s.version.to_s }
+  s.author           = { 'Mccc' => 'https://github.com/iAmMccc' }
+  s.source           = { :git => 'https://github.com/iAmMccc/BTPrint.git', :tag => s.version.to_s }
 
   s.platform              = :ios, '10.0'
   s.ios.deployment_target = '10.0'
